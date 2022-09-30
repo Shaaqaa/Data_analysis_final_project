@@ -43,6 +43,7 @@ with dataset:
     
    
 with feature:
+    """
     st.header("features")  
     st.text("Violin plot, It shows the distribution of quantitative data across several levels of one (or more) categorical variables")
     vi_m = Image.open("vi_mean.png")
@@ -52,7 +53,7 @@ with feature:
     vi_wo = Image.open("vi_worst.png")
     st.image(vi_wo,caption=("Violin plot of the  features.(worst features)"))
     
-    """  
+      
     st.text("correlation heat map.")
     he_me  = Image.open("heat_mean.png")
     st.image(he_me,caption=("heat map correlation of the features (mean features)"))
