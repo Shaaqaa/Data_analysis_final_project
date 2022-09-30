@@ -43,31 +43,11 @@ with dataset:
     
    
 with feature:
-    """
+    
     st.header("features")  
     st.text("Violin plot, It shows the distribution of quantitative data across several levels of one (or more) categorical variables")
     vi_m = Image.open("vi_mean.png")
     st.image(vi_m,caption=("Violin plot of the  features.(mean features)"))
-    vi_se = Image.open("vi_se.png")
-    st.image(vi_se,caption=("Violin plot of the  features.(standard Error features)"))
-    vi_wo = Image.open("vi_worst.png")
-    st.image(vi_wo,caption=("Violin plot of the  features.(worst features)"))
-    
-      
-    st.text("correlation heat map.")
-    he_me  = Image.open("heat_mean.png")
-    st.image(he_me,caption=("heat map correlation of the features (mean features)"))
-    he_se  = Image.open("heat_se.png")
-    st.image(he_se,caption=("heat map correlation of the features (standard error features)"))
-    he_wo  = Image.open("heat_worst.png")
-    st.image(he_wo,caption=("heat map correlation of the features (worst features)"))
-    
-    st.text("Joint plot to observe correlation")
-    jo_1  = Image.open("joint_se_1.png")
-    st.image(jo_1,caption=("Joint plot"))
-    
-    jo  = Image.open("joint_se.png")
-    st.image(jo,caption=("Joint plot"))"""
     
     
 with modeltraining:
