@@ -52,6 +52,7 @@ with feature:
     vi_wo = Image.open("vi_worst.png")
     st.image(vi_wo,caption=("Violin plot of the  features.(worst features)"))
     
+    """  
     st.text("correlation heat map.")
     he_me  = Image.open("heat_mean.png")
     st.image(he_me,caption=("heat map correlation of the features (mean features)"))
@@ -65,7 +66,7 @@ with feature:
     st.image(jo_1,caption=("Joint plot"))
     
     jo  = Image.open("joint_se.png")
-    st.image(jo,caption=("Joint plot"))
+    st.image(jo,caption=("Joint plot"))"""
     
     
 with modeltraining:
